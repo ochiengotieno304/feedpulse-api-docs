@@ -11,10 +11,10 @@ permalink: /getting-started/
 Create an account through the `/account/new` endpoint
 
 {% highlight shell %}
-curl --location 'http:///api/account/new' \
---header 'Content-Type: application/json' \
+curl --location --request POST 'http://localhost:2300/account/new' \
 --header 'Accept: application/json' \
---data-raw '{"username": "example", "email": "email@example.com"}'
+--header 'Content-Type: application/json' \
+--data '{"username": "testuser", "email": "test@mail.com"}'
 {% endhighlight %}
 
 ### Parameters
@@ -25,22 +25,18 @@ curl --location 'http:///api/account/new' \
 
 ### Response
 
-The response is a json object containing user object, and token.
-A refresh token is sent with the response, save it to avoid account loss on access token expiration
+The response is a json object containing user object, and an api key. Store the api key securely.
 
-{% highlight shell %}
+{% highlight json %}
 {
-    "message": "account registered successfully, save refresh token to avoid account loss",
-    "user": {
-        "id": 9,
-        "username": "example",
-        "email": "email@example.com",
-        "refresh_token": "secret-refresh-token"
-    },
-    "token": "secret-access-token"
+    "message":"account registered successfully",
+    "user_details":{
+        "username":"testuser",
+        "email":"test@mail.com",
+        "api_key":"secret-api-key"}
 }
 {% endhighlight %}
 
 ## Confirm Email
 
-Confirm email to activate your account
+Your'll receive a confirmation email to activate your account

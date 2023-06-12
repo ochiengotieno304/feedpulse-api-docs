@@ -6,16 +6,15 @@ nav_order: 1
 permalink: /getting-started/account/
 ---
 
-# Refresh Token
+# Revoke API Key
 
-To refresh access token send 
+To revoke your api key make this request
 
 {% highlight shell %}
-curl --location 'http://localhost:2300/api/feeds?country=ke' \
+curl --location POST 'http://api.feedpulse.test/account/revoke-key' \
 --header 'Accept: application/json' \
---header 'Authorization: Bearer your-secret-token'
+--header 'Authorization: secret-api-key' \
+--data '{"username": "your-user-name"}'
 {% endhighlight %}
 
-``` ruby
-puts 'hello'
-```
+
