@@ -16,5 +16,3 @@ curl --location POST 'http://api.feedpulse.test/account/revoke-key' \
 --header 'Authorization: secret-api-key' \
 --data '{"username": "your-user-name"}'
 {% endhighlight %}
-
-
