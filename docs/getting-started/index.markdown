@@ -11,7 +11,7 @@ permalink: /getting-started/
 Create an account through the `/account/new` endpoint
 
 {% highlight shell %}
-curl --location --request POST 'http://localhost:2300/account/new' \
+curl --location --request POST 'http://api.feedpulse.com/account/new' \
 --header 'Accept: application/json' \
 --header 'Content-Type: application/json' \
 --data '{"username": "testuser", "email": "test@mail.com"}'
