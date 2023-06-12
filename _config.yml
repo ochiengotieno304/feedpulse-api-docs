@@ -101,6 +101,7 @@ enable_copy_code_button: true
 
 # Build settings
 theme: just-the-docs
+
 plugins:
   - jekyll-feed
 
