@@ -8,6 +8,9 @@ permalink: /getting-started/account/
 
 # Revoke API Key
 
+> **Warning**
+> Deprecated, use [RapidAPI](https://rapidapi.com/ochiengotieno304/api/feedpulse2) to access FeedPulse
+
 To revoke your api key make this request
 
 {% highlight shell %}

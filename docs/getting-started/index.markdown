@@ -8,6 +8,9 @@ permalink: /getting-started/
 
 ## Create Account
 
+> **Warning**
+> Deprecated, use [RapidAPI](https://rapidapi.com/ochiengotieno304/api/feedpulse2) to access FeedPulse
+
 Create an account through the `/account/new` endpoint
 
 {% highlight shell %}
