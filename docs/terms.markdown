@@ -83,7 +83,7 @@ These Terms of Use ("Terms") govern your access to and use of the FeedPulse API 
 
 ## 12. Governing Law and Jurisdiction
 
-12.1. These Terms of Use shall be governed by and construed in accordance with the laws of the Republic of Kenya. Any legal action or proceeding arising out of or relating to these Terms shall be exclusively brought in the courts of the Republic ofKenya, and you consent to the personal jurisdiction of such courts.
+12.1. These Terms of Use shall be governed by and construed in accordance with the laws of the Republic of Kenya. Any legal action or proceeding arising out of or relating to these Terms shall be exclusively brought in the courts of the Republic of Kenya, and you consent to the personal jurisdiction of such courts.
 
 ## 13. Entire Agreement
 
@@ -98,5 +98,5 @@ By using the FeedPulse API, you acknowledge that you have read, understood, and 
 
 ---
 
-*Last updated: 13<sup>th</sup> June, 2023*
+*Last updated: 20<sup>th</sup> April, 2024*
 
